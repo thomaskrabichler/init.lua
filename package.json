@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "vscode-html-languageservice": "^5.1.1"
+  }
+}
