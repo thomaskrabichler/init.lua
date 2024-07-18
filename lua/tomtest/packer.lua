@@ -14,6 +14,11 @@ use {
   },
   tag = 'nightly' -- optional, updated every week. (see issue #1193)
 }
+use {
+  'mrcjkb/rustaceanvim',
+  version = '^4', -- Recommended
+  lazy = false, -- This plugin is already lazy
+}
   use 'github/copilot.vim'
   use { "catppuccin/nvim", as = "catppuccin" }
   use 'folke/tokyonight.nvim'

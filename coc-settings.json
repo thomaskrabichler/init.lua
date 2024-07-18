@@ -3,4 +3,13 @@
   "diagnostic.warningSign": "⚑",
   "diagnostic.infoSign": "⚑",
   "diagnostic.hintSign": "⚑",
+  "python.formatting.provider": "black",
+  "languageserver": {
+    "rust-analyzer": {
+      "command": "rust-analyzer",
+      "filetypes": ["rust"],
+      "rootPatterns": ["Cargo.toml"]
+    }
+  },
+  "svelte.enable-ts-plugin": true
 }
