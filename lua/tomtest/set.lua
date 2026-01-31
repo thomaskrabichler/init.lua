@@ -34,3 +34,6 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 vim.opt.colorcolumn = "0"
+
+vim.opt.completeopt = {'menu', 'menuone', 'noselect'}
+vim.opt.pumheight = 10
